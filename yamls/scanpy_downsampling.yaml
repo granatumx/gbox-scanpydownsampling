@@ -26,11 +26,6 @@ endpoints:
     image: {GBOX}
 frontend:
   args:
-    - type: samplePicker
-      label: Cells to remove
-      default: []
-      injectInto: cells_to_remove
-      description: Select cells to be removed
     - type: number
       label: Number of cells to sample
       default: 1000
